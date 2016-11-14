@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.by_syk.coolapkapi.demo"
+        minSdkVersion 8
+        targetSdkVersion 25
+        versionCode 16111400
+        versionName "1.0.0.nightly"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    /*lintOptions {
+        disable 'MissingTranslation'
+    }*/
+}
+
+/*repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}*/
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    testCompile 'junit:junit:4.12'
+
+    //compile 'com.android.support:appcompat-v7:25.0.0'
+
+    //compile(name:'sp-1.0.2', ext:'aar')
+    //compile(name:'globaltoast-1.1.0', ext:'aar')
+    //compile(name:'dialogrootview-1.0.2', ext:'aar')
+    //compile(name:'urianalyser-1.0.3', ext:'aar')
+
+    compile project(path: ':coolapkapi')
+}
