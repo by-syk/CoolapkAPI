@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/unit_padding"
+    android:paddingBottom="@dimen/unit_padding"
+    android:paddingRight="@dimen/unit_padding"
+    android:paddingEnd="@dimen/unit_padding"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:textSize="18sp"
+            android:textColor="@android:color/primary_text_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_action_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/secondary_text_dark"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:textColor="@android:color/secondary_text_dark"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/ic_action_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/secondary_text_dark"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/tv_follow"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:textColor="@android:color/secondary_text_dark"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/ic_action_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@android:color/secondary_text_dark"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/tv_download"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:textColor="@android:color/secondary_text_dark"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

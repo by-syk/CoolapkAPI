@@ -17,8 +17,32 @@
 
 <resources>
 
-    <string name="app_name">Template</string>
+    <string name="app_name">Coolapk API Sample</string>
 
     <string name="copyright" translatable="false">Copyright &#169; 2016 By_syk. All rights reserved.</string>
+
+    <string name="query">Query</string>
+    <string name="querying">Querying</string>
+    <string name="query_hint">Enter package name to query</string>
+    <string name="sample1">Sample 1</string>
+    <string name="sample2">Sample 2</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="title_id">ID</string>
+    <string name="title_pkg_name">Package name</string>
+    <string name="title_app_name">App name</string>
+    <string name="title_ver_name">Version name</string>
+    <string name="title_ver_code">Version code</string>
+    <string name="title_apk_size">Apk size</string>
+    <string name="title_title">Title</string>
+    <string name="title_description">Description</string>
+    <string name="title_developer">Developer</string>
+    <string name="title_score">Score</string>
+    <string name="title_vote">Vote</string>
+    <string name="title_follow">Follow</string>
+    <string name="title_comment">Comment</string>
+    <string name="title_download">Download</string>
+    <string name="title_release">Release date</string>
+    <string name="title_update">Last update</string>
 
 </resources>

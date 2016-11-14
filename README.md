@@ -1,6 +1,6 @@
-# Coolapk API
+# 酷市场 API
 
-The third.
+由抓包分析出的酷市场第三方 API。
 
 
 ### License

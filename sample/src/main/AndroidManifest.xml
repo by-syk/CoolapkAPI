@@ -18,6 +18,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.by_syk.coolapkapi.demo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,6 +32,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Sample1Activity"
+            android:label="@string/sample1"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".Sample2Activity"
+            android:label="@string/sample2" />
 
     </application>
 

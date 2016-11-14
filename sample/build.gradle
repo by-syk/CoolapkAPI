@@ -6,10 +6,12 @@ android {
 
     defaultConfig {
         applicationId "com.by_syk.coolapkapi.demo"
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 25
         versionCode 16111400
         versionName "1.0.0.nightly"
+
+        vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
     }
 
     buildTypes {
