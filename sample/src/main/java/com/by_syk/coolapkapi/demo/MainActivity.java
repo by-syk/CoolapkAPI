@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 
     private void init() {
         ListView listView = (ListView) findViewById(R.id.lv_samples);
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 android.R.id.text1, getResources().getStringArray(R.array.samples));
         listView.setAdapter(arrayAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
